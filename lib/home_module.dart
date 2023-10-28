@@ -10,28 +10,27 @@ class HomeModule extends Module {
 
   @override
   void routes(r) {
-    r.child('/', child: (context) => const HomePage(), children: [
-      ChildRoute(
-        '/blue',
-        child: (context) => const InternalPage(
-          title: 'Home > Blue',
-          color: Colors.blue,
-        ),
+    r.child('/', child: (context) => const HomePage());
+    r.child(
+      '/blue',
+      child: (context) => const InternalPage(
+        title: 'Home > Blue',
+        color: Colors.blue,
       ),
-      ChildRoute(
-        '/amber',
-        child: (context) => const InternalPage(
-          title: 'Home > Amber',
-          color: Colors.amber,
-        ),
+    );
+    r.child(
+      '/amber',
+      child: (context) => const InternalPage(
+        title: 'Home > Amber',
+        color: Colors.amber,
       ),
-      ChildRoute(
-        '/green',
-        child: (context) => const InternalPage(
-          title: 'Home > Green',
-          color: Colors.green,
-        ),
+    );
+    r.child(
+      '/green',
+      child: (context) => const InternalPage(
+        title: 'Home > Green',
+        color: Colors.green,
       ),
-    ]);
+    );
   }
 }

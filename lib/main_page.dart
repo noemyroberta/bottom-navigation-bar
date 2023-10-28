@@ -19,7 +19,7 @@ class _MainPageState extends State<MainPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-       backgroundColor: Colors.transparent,
+      backgroundColor: Colors.transparent,
       bottomNavigationBar: BottomNavigationBar(
         currentIndex: _currentIndex,
         onTap: (index) {
@@ -45,4 +45,3 @@ class _MainPageState extends State<MainPage> {
     );
   }
 }
-

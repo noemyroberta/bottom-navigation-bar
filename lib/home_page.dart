@@ -19,7 +19,7 @@ class _HomePageState extends State<HomePage> {
         children: [
           TextButton(
             onPressed: () {
-              Modular.to.pushNamed('./blue');
+              Modular.to.navigate('./blue');
             },
             child: const Text('Navigate to blue'),
           ),

@@ -11,8 +11,12 @@ class InternalPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Material(
       color: color,
-      child: Center(
-        child: Text(title),
+      child: Column(
+        children: [
+          Center(
+            child: Text(title),
+          ),
+        ],
       ),
     );
   }
