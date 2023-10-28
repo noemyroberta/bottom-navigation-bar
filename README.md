@@ -24,3 +24,10 @@ Here's a rundown of the main pages and their respective roles:
 ## Get Started
 
 To adapt this sample to your own project, follow the structure and patterns provided. Contributions to enhance or expand upon this example are welcomed! If you have ideas or improvements, please consider submitting a Pull Request.
+
+## ScreenShots
+
+<img src="assets/main.png" alt="Home" width="200" height="400">
+<img src="assets/blue.png" alt="Insider Page" width="200" height="400">
+<img src="assets/settings.png" alt="Insider Page" width="200" height="400">
+<img src="assets/profile.png" alt="Insider Page" width="200" height="400">
