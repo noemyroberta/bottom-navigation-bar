@@ -2,7 +2,7 @@ import 'package:nested_navigation/internal_page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_modular/flutter_modular.dart';
 
-import 'home_page.dart';
+import '../home_page.dart';
 
 class HomeModule extends Module {
   @override

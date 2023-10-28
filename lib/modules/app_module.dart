@@ -1,9 +1,9 @@
-import 'package:nested_navigation/home_module.dart';
+import 'package:nested_navigation/modules/home_module.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_modular/flutter_modular.dart';
 
-import 'main_page.dart';
-import 'internal_page.dart';
+import '../main_page.dart';
+import '../internal_page.dart';
 
 class AppModule extends Module {
   @override
