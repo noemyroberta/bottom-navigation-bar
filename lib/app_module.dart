@@ -12,13 +12,18 @@ class AppModule extends Module {
   @override
   void routes(r) {
     r.child('/', child: (context) => const MainPage(), children: [
-      ModuleRoute('/home', module: HomeModule()),
+      ModuleRoute(
+        '/home',
+        module: HomeModule(),
+        transition: TransitionType.rightToLeft,
+      ),
       ChildRoute(
         '/profile',
         child: (context) => const InternalPage(
           title: 'page 2',
           color: Colors.amber,
         ),
+        transition: TransitionType.rightToLeft,
       ),
       ChildRoute(
         '/settings',
@@ -26,6 +31,7 @@ class AppModule extends Module {
           title: 'page 3',
           color: Colors.green,
         ),
+        transition: TransitionType.rightToLeft,
       ),
     ]);
   }
