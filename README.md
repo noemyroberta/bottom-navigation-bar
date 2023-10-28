@@ -27,7 +27,7 @@ To adapt this sample to your own project, follow the structure and patterns prov
 
 ## ScreenShots
 
-<video width="200" height="400" controls>
-  <source src="assets/sample.mkv" type="video/mkv">
-  Seu navegador não suporta o elemento de vídeo.
-</video>
+<img src="assets/main.png" alt="Home" width="200" height="400">
+<img src="assets/blue.png" alt="Insider Page" width="200" height="400">
+<img src="assets/settings.png" alt="Insider Page" width="200" height="400">
+<img src="assets/profile.png" alt="Insider Page" width="200" height="400">
