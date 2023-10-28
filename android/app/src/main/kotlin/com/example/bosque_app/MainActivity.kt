@@ -1,4 +1,4 @@
-package com.example.bosque_app
+package com.example.nested-navigation
 
 import io.flutter.embedding.android.FlutterActivity
 

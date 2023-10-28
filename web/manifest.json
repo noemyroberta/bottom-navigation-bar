@@ -1,6 +1,6 @@
 {
-    "name": "bosque_app",
-    "short_name": "bosque_app",
+    "name": "nested-navigation",
+    "short_name": "nested-navigation",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

@@ -1,4 +1,4 @@
-import 'package:bosque_app/app_widget.dart';
+import 'package:nested_navigation/app_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_modular/flutter_modular.dart';
 

@@ -1,4 +1,4 @@
-# bosque_app
+# nested-navigation
 
 A new Flutter project.
 

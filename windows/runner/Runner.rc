@@ -90,12 +90,12 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "com.example" "\0"
-            VALUE "FileDescription", "bosque_app" "\0"
+            VALUE "FileDescription", "nested-navigation" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "bosque_app" "\0"
+            VALUE "InternalName", "nested-navigation" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2023 com.example. All rights reserved." "\0"
-            VALUE "OriginalFilename", "bosque_app.exe" "\0"
-            VALUE "ProductName", "bosque_app" "\0"
+            VALUE "OriginalFilename", "nested-navigation.exe" "\0"
+            VALUE "ProductName", "nested-navigation" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

@@ -1,4 +1,4 @@
-import 'package:bosque_app/home_module.dart';
+import 'package:nested_navigation/home_module.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_modular/flutter_modular.dart';
 
