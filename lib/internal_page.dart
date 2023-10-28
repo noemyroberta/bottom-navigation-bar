@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 
 class InternalPage extends StatelessWidget {
@@ -11,12 +10,16 @@ class InternalPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Material(
       color: color,
-      child: Column(
-        children: [
-          Center(
-            child: Text(title),
-          ),
-        ],
+      child: Center(
+        child: Column(
+          children: [
+            InkWell(
+              onTap: () => Navigator.of(context).pop(),
+              child: const Icon(Icons.arrow_back_ios),
+            ),
+            Text(title),
+          ],
+        ),
       ),
     );
   }

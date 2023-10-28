@@ -19,19 +19,19 @@ class _HomePageState extends State<HomePage> {
         children: [
           TextButton(
             onPressed: () {
-              Modular.to.navigate('./blue');
+              Modular.to.pushNamed('./blue');
             },
             child: const Text('Navigate to blue'),
           ),
           TextButton(
             onPressed: () {
-              Modular.to.navigate('./amber');
+              Modular.to.pushNamed('./amber');
             },
             child: const Text('Navigate to amber'),
           ),
           TextButton(
             onPressed: () {
-              Modular.to.navigate('./green');
+              Modular.to.pushNamed('./green');
             },
             child: const Text('Navigate to green'),
           ),
